@@ -7,15 +7,18 @@ function createAlert() {
 }
 
 function App() {
-  return (
-    <div className="App">
-      <Header info="This is message" myNumber="6" />
-
-        <p>Main Conten</p>
-
-      <Footer trademark="page by Giva" myalert={createAlert} />
-    </div>
-  );
-}
+    return (
+      <div className="App">
+        
+        <Header info="This is message" myNumber="6" />
+        
+          <p>Main Conten</p>
+        
+        <Footer trademark="page by Giva" myalert={createAlert} />
+        
+      </div>
+    );
+    
+  }
 
 export default App;
